@@ -12,4 +12,8 @@ public class CalcTest
 	public void testadd(){
 		assertTrue(Calc.add(1,2)==3);
 	}
+	@Test
+	public void testsubtract(){
+		assertTrue(Calc.subtract(2,1)==1);
+	}
 }
